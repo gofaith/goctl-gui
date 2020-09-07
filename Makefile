@@ -1,5 +1,0 @@
-run:
-	npm start
-
-linux:
-	

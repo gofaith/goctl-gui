@@ -15,7 +15,7 @@ import (
 func main() {
 	app := frontpage.New(views.Bytes_IndexHtml, 0)
 	app.Bind(genJs)
-	app.Open()
+	app.OpenApp()
 	app.Run()
 }
 
